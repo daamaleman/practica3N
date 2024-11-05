@@ -25,7 +25,7 @@ namespace LoginForm
         {
             if (string.IsNullOrWhiteSpace(TxtUser.Text.Trim()) || string.IsNullOrWhiteSpace(TxtPw.Text.Trim()))
             {
-                MetroFramework.MetroMessageBox.Show(this, "Ingrese un usuario y una contraseña", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MetroMessageBox.Show(this, "Ingrese un usuario y una contraseña", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
