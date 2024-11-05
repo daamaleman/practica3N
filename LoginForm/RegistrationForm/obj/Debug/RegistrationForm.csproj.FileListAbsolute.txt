@@ -5,10 +5,10 @@ C:\Users\diede\Desktop\Metodología\Proyectos C#\Ejercicios C#-2 Parcial\Ejercic
 C:\Users\diede\Desktop\Metodología\Proyectos C#\Ejercicios C#-2 Parcial\EjerciciosPracticos\LoginForm\RegistrationForm\bin\Debug\MetroFramework.dll
 C:\Users\diede\Desktop\Metodología\Proyectos C#\Ejercicios C#-2 Parcial\EjerciciosPracticos\LoginForm\RegistrationForm\bin\Debug\MetroFramework.Fonts.dll
 C:\Users\diede\Desktop\Metodología\Proyectos C#\Ejercicios C#-2 Parcial\EjerciciosPracticos\LoginForm\RegistrationForm\obj\Debug\RegistrationForm.csproj.AssemblyReference.cache
-C:\Users\diede\Desktop\Metodología\Proyectos C#\Ejercicios C#-2 Parcial\EjerciciosPracticos\LoginForm\RegistrationForm\obj\Debug\RegistrationForm.Form1.resources
 C:\Users\diede\Desktop\Metodología\Proyectos C#\Ejercicios C#-2 Parcial\EjerciciosPracticos\LoginForm\RegistrationForm\obj\Debug\RegistrationForm.Properties.Resources.resources
 C:\Users\diede\Desktop\Metodología\Proyectos C#\Ejercicios C#-2 Parcial\EjerciciosPracticos\LoginForm\RegistrationForm\obj\Debug\RegistrationForm.csproj.GenerateResource.cache
 C:\Users\diede\Desktop\Metodología\Proyectos C#\Ejercicios C#-2 Parcial\EjerciciosPracticos\LoginForm\RegistrationForm\obj\Debug\RegistrationForm.csproj.CoreCompileInputs.cache
 C:\Users\diede\Desktop\Metodología\Proyectos C#\Ejercicios C#-2 Parcial\EjerciciosPracticos\LoginForm\RegistrationForm\obj\Debug\Registra.FD1F2349.Up2Date
 C:\Users\diede\Desktop\Metodología\Proyectos C#\Ejercicios C#-2 Parcial\EjerciciosPracticos\LoginForm\RegistrationForm\obj\Debug\RegistrationForm.exe
 C:\Users\diede\Desktop\Metodología\Proyectos C#\Ejercicios C#-2 Parcial\EjerciciosPracticos\LoginForm\RegistrationForm\obj\Debug\RegistrationForm.pdb
+C:\Users\diede\Desktop\Metodología\Proyectos C#\Ejercicios C#-2 Parcial\EjerciciosPracticos\LoginForm\RegistrationForm\obj\Debug\RegistrationForm.RegistrationForm.resources

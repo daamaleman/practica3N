@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\diede\\Desktop\\Metodolog\u00EDa\\Proyectos C#\\Ejercicios C#-2 Parcial\\EjerciciosPracticos\\LoginForm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{020EAE0D-4650-493B-A14B-3B5A84FC0302}|RegistrationForm\\RegistrationForm.csproj|c:\\users\\diede\\desktop\\metodolog\u00EDa\\proyectos c#\\ejercicios c#-2 parcial\\ejerciciospracticos\\loginform\\registrationform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{020EAE0D-4650-493B-A14B-3B5A84FC0302}|RegistrationForm\\RegistrationForm.csproj|solutionrelative:registrationform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A105D72-2EF6-43F3-952D-C4E9C7B8460C}|CalculatorForm1\\CalculatorForm1.csproj|c:\\users\\diede\\desktop\\metodolog\u00EDa\\proyectos c#\\ejercicios c#-2 parcial\\ejerciciospracticos\\loginform\\calculatorform1\\calculatorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A105D72-2EF6-43F3-952D-C4E9C7B8460C}|CalculatorForm1\\CalculatorForm1.csproj|solutionrelative:calculatorform1\\calculatorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{020EAE0D-4650-493B-A14B-3B5A84FC0302}|RegistrationForm\\RegistrationForm.csproj|c:\\users\\diede\\desktop\\metodolog\u00EDa\\proyectos c#\\ejercicios c#-2 parcial\\ejerciciospracticos\\loginform\\registrationform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{020EAE0D-4650-493B-A14B-3B5A84FC0302}|RegistrationForm\\RegistrationForm.csproj|solutionrelative:registrationform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{646A2D64-12F7-4158-B6EB-E0CED2E13E1D}|LoginForm\\LoginForm.csproj|c:\\users\\diede\\desktop\\metodolog\u00EDa\\proyectos c#\\ejercicios c#-2 parcial\\ejerciciospracticos\\loginform\\loginform\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{646A2D64-12F7-4158-B6EB-E0CED2E13E1D}|LoginForm\\LoginForm.csproj|solutionrelative:loginform\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{020EAE0D-4650-493B-A14B-3B5A84FC0302}|RegistrationForm\\RegistrationForm.csproj|c:\\users\\diede\\desktop\\metodolog\u00EDa\\proyectos c#\\ejercicios c#-2 parcial\\ejerciciospracticos\\loginform\\registrationform\\models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{020EAE0D-4650-493B-A14B-3B5A84FC0302}|RegistrationForm\\RegistrationForm.csproj|solutionrelative:registrationform\\models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A105D72-2EF6-43F3-952D-C4E9C7B8460C}|CalculatorForm1\\CalculatorForm1.csproj|c:\\users\\diede\\desktop\\metodolog\u00EDa\\proyectos c#\\ejercicios c#-2 parcial\\ejerciciospracticos\\loginform\\calculatorform1\\calculatorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4A105D72-2EF6-43F3-952D-C4E9C7B8460C}|CalculatorForm1\\CalculatorForm1.csproj|solutionrelative:calculatorform1\\calculatorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,53 +26,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserLogin.cs",
-              "DocumentMoniker": "C:\\Users\\diede\\Desktop\\Metodolog\u00EDa\\Proyectos C#\\Ejercicios C#-2 Parcial\\EjerciciosPracticos\\LoginForm\\RegistrationForm\\Models\\UserLogin.cs",
-              "RelativeDocumentMoniker": "RegistrationForm\\Models\\UserLogin.cs",
-              "ToolTip": "C:\\Users\\diede\\Desktop\\Metodolog\u00EDa\\Proyectos C#\\Ejercicios C#-2 Parcial\\EjerciciosPracticos\\LoginForm\\RegistrationForm\\Models\\UserLogin.cs",
-              "RelativeToolTip": "RegistrationForm\\Models\\UserLogin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T00:45:11.528Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "C:\\Users\\diede\\Desktop\\Metodolog\u00EDa\\Proyectos C#\\Ejercicios C#-2 Parcial\\EjerciciosPracticos\\LoginForm\\LoginForm\\LoginForm.cs",
-              "RelativeDocumentMoniker": "LoginForm\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\diede\\Desktop\\Metodolog\u00EDa\\Proyectos C#\\Ejercicios C#-2 Parcial\\EjerciciosPracticos\\LoginForm\\LoginForm\\LoginForm.cs",
-              "RelativeToolTip": "LoginForm\\LoginForm.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T00:38:14.023Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\diede\\Desktop\\Metodolog\u00EDa\\Proyectos C#\\Ejercicios C#-2 Parcial\\EjerciciosPracticos\\LoginForm\\RegistrationForm\\Form1.cs",
-              "RelativeDocumentMoniker": "RegistrationForm\\Form1.cs",
-              "ToolTip": "C:\\Users\\diede\\Desktop\\Metodolog\u00EDa\\Proyectos C#\\Ejercicios C#-2 Parcial\\EjerciciosPracticos\\LoginForm\\RegistrationForm\\Form1.cs",
-              "RelativeToolTip": "RegistrationForm\\Form1.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAowBcAAACPAAAAAAAAAA==",
+              "Title": "CalculatorForm.cs",
+              "DocumentMoniker": "C:\\Users\\diede\\Desktop\\Metodolog\u00EDa\\Proyectos C#\\Ejercicios C#-2 Parcial\\EjerciciosPracticos\\LoginForm\\CalculatorForm1\\CalculatorForm.cs",
+              "RelativeDocumentMoniker": "CalculatorForm1\\CalculatorForm.cs",
+              "ToolTip": "C:\\Users\\diede\\Desktop\\Metodolog\u00EDa\\Proyectos C#\\Ejercicios C#-2 Parcial\\EjerciciosPracticos\\LoginForm\\CalculatorForm1\\CalculatorForm.cs",
+              "RelativeToolTip": "CalculatorForm1\\CalculatorForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T00:22:39.686Z",
+              "WhenOpened": "2024-11-05T02:29:37.59Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\diede\\Desktop\\Metodolog\u00EDa\\Proyectos C#\\Ejercicios C#-2 Parcial\\EjerciciosPracticos\\LoginForm\\RegistrationForm\\Form1.cs",
-              "RelativeDocumentMoniker": "RegistrationForm\\Form1.cs",
-              "ToolTip": "C:\\Users\\diede\\Desktop\\Metodolog\u00EDa\\Proyectos C#\\Ejercicios C#-2 Parcial\\EjerciciosPracticos\\LoginForm\\RegistrationForm\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "RegistrationForm\\Form1.cs [Dise\u00F1o]",
+              "Title": "CalculatorForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\diede\\Desktop\\Metodolog\u00EDa\\Proyectos C#\\Ejercicios C#-2 Parcial\\EjerciciosPracticos\\LoginForm\\CalculatorForm1\\CalculatorForm.cs",
+              "RelativeDocumentMoniker": "CalculatorForm1\\CalculatorForm.cs",
+              "ToolTip": "C:\\Users\\diede\\Desktop\\Metodolog\u00EDa\\Proyectos C#\\Ejercicios C#-2 Parcial\\EjerciciosPracticos\\LoginForm\\CalculatorForm1\\CalculatorForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CalculatorForm1\\CalculatorForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T00:22:24.353Z",
+              "WhenOpened": "2024-11-05T02:28:39.468Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

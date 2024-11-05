@@ -1,6 +1,6 @@
 ﻿namespace RegistrationForm
 {
-    partial class Form1
+    partial class RegistrationForm
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -39,6 +39,8 @@
             this.BtnLogin = new MetroFramework.Controls.MetroButton();
             this.LblPw2 = new MetroFramework.Controls.MetroLabel();
             this.TxtPw2 = new MetroFramework.Controls.MetroTextBox();
+            this.CbxSee1 = new MetroFramework.Controls.MetroCheckBox();
+            this.CbxSee2 = new MetroFramework.Controls.MetroCheckBox();
             this.SuspendLayout();
             // 
             // LblName
@@ -181,11 +183,12 @@
             this.TxtPw.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.TxtPw.CustomButton.UseSelectable = true;
             this.TxtPw.CustomButton.Visible = false;
+            this.TxtPw.FontWeight = MetroFramework.MetroTextBoxWeight.Bold;
             this.TxtPw.Lines = new string[0];
             this.TxtPw.Location = new System.Drawing.Point(209, 237);
             this.TxtPw.MaxLength = 32767;
             this.TxtPw.Name = "TxtPw";
-            this.TxtPw.PasswordChar = '\0';
+            this.TxtPw.PasswordChar = '*';
             this.TxtPw.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.TxtPw.SelectedText = "";
             this.TxtPw.SelectionLength = 0;
@@ -196,6 +199,7 @@
             this.TxtPw.UseSelectable = true;
             this.TxtPw.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.TxtPw.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.TxtPw.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtPw_KeyPress);
             // 
             // BtnLogin
             // 
@@ -215,6 +219,7 @@
             this.LblPw2.Size = new System.Drawing.Size(142, 19);
             this.LblPw2.TabIndex = 9;
             this.LblPw2.Text = "Confirmar Contraseña:";
+            this.LblPw2.Visible = false;
             // 
             // TxtPw2
             // 
@@ -230,11 +235,12 @@
             this.TxtPw2.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.TxtPw2.CustomButton.UseSelectable = true;
             this.TxtPw2.CustomButton.Visible = false;
+            this.TxtPw2.FontWeight = MetroFramework.MetroTextBoxWeight.Bold;
             this.TxtPw2.Lines = new string[0];
             this.TxtPw2.Location = new System.Drawing.Point(209, 283);
             this.TxtPw2.MaxLength = 32767;
             this.TxtPw2.Name = "TxtPw2";
-            this.TxtPw2.PasswordChar = '\0';
+            this.TxtPw2.PasswordChar = '*';
             this.TxtPw2.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.TxtPw2.SelectedText = "";
             this.TxtPw2.SelectionLength = 0;
@@ -242,15 +248,46 @@
             this.TxtPw2.ShortcutsEnabled = true;
             this.TxtPw2.Size = new System.Drawing.Size(246, 23);
             this.TxtPw2.TabIndex = 10;
+            this.TxtPw2.UseCustomBackColor = true;
+            this.TxtPw2.UseCustomForeColor = true;
             this.TxtPw2.UseSelectable = true;
+            this.TxtPw2.Visible = false;
             this.TxtPw2.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.TxtPw2.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.TxtPw2.KeyUp += new System.Windows.Forms.KeyEventHandler(this.TxtPw2_KeyUp);
             // 
-            // Form1
+            // CbxSee1
+            // 
+            this.CbxSee1.AutoSize = true;
+            this.CbxSee1.BackgroundImage = global::RegistrationForm.Properties.Resources.eyeopen;
+            this.CbxSee1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.CbxSee1.Location = new System.Drawing.Point(461, 241);
+            this.CbxSee1.Name = "CbxSee1";
+            this.CbxSee1.Size = new System.Drawing.Size(39, 15);
+            this.CbxSee1.TabIndex = 11;
+            this.CbxSee1.Text = "Ver";
+            this.CbxSee1.UseSelectable = true;
+            this.CbxSee1.CheckedChanged += new System.EventHandler(this.CbxSee1_CheckedChanged);
+            // 
+            // CbxSee2
+            // 
+            this.CbxSee2.AutoSize = true;
+            this.CbxSee2.Location = new System.Drawing.Point(461, 287);
+            this.CbxSee2.Name = "CbxSee2";
+            this.CbxSee2.Size = new System.Drawing.Size(39, 15);
+            this.CbxSee2.TabIndex = 12;
+            this.CbxSee2.Text = "Ver";
+            this.CbxSee2.UseSelectable = true;
+            this.CbxSee2.Visible = false;
+            this.CbxSee2.CheckedChanged += new System.EventHandler(this.CbxSee2_CheckedChanged);
+            // 
+            // RegistrationForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(608, 424);
+            this.Controls.Add(this.CbxSee2);
+            this.Controls.Add(this.CbxSee1);
             this.Controls.Add(this.TxtPw2);
             this.Controls.Add(this.LblPw2);
             this.Controls.Add(this.BtnLogin);
@@ -262,8 +299,8 @@
             this.Controls.Add(this.LblEmail);
             this.Controls.Add(this.LblLastName);
             this.Controls.Add(this.LblName);
-            this.Name = "Form1";
-            this.Text = "Registrarse";
+            this.Name = "RegistrationForm";
+            this.Text = " ";
             this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -283,6 +320,8 @@
         private MetroFramework.Controls.MetroButton BtnLogin;
         private MetroFramework.Controls.MetroLabel LblPw2;
         private MetroFramework.Controls.MetroTextBox TxtPw2;
+        private MetroFramework.Controls.MetroCheckBox CbxSee2;
+        private MetroFramework.Controls.MetroCheckBox CbxSee1;
     }
 }
 
